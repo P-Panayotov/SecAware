@@ -1,0 +1,24 @@
+{
+  "originHash" : "bc431440ea24f88fb7614bbb4aa33ddd66e289223c5da396f62239df6b0d74f5",
+  "pins" : [
+    {
+      "identity" : "checkjailbreakdevice",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SachinSabat/CheckJailBreakDevice",
+      "state" : {
+        "revision" : "098912b11b42eff88744a6ceb8bc498089377ab4",
+        "version" : "1.0.5"
+      }
+    },
+    {
+      "identity" : "swiftapiclient",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:hromni/SwiftAPIClient.git",
+      "state" : {
+        "revision" : "83382b3f5dfa262e469f62e769331c343e367443",
+        "version" : "0.1.5"
+      }
+    }
+  ],
+  "version" : 3
+}

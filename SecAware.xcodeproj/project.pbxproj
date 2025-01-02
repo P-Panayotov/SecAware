@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		560FE27D2D1727440050BEF7 /* SwiftAPIClient in Frameworks */ = {isa = PBXBuildFile; productRef = 560FE27C2D1727440050BEF7 /* SwiftAPIClient */; };
+		560FE2BB2D1979EC0050BEF7 /* CheckJailBreakDevice in Frameworks */ = {isa = PBXBuildFile; productRef = 560FE2BA2D1979EC0050BEF7 /* CheckJailBreakDevice */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		560FE24D2D17167A0050BEF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 560FE2342D1716780050BEF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 560FE23B2D1716780050BEF7;
+			remoteInfo = SecAware;
+		};
+		560FE2572D17167A0050BEF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 560FE2342D1716780050BEF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 560FE23B2D1716780050BEF7;
+			remoteInfo = SecAware;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		560FE23C2D1716780050BEF7 /* SecAware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecAware.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		560FE24C2D17167A0050BEF7 /* SecAwareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecAwareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		560FE2562D17167A0050BEF7 /* SecAwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecAwareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		560FE2C02D197B5F0050BEF7 /* Exceptions for "SecAware" folder in "SecAware" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 560FE23B2D1716780050BEF7 /* SecAware */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		560FE23E2D1716780050BEF7 /* SecAware */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				560FE2C02D197B5F0050BEF7 /* Exceptions for "SecAware" folder in "SecAware" target */,
+			);
+			path = SecAware;
+			sourceTree = "<group>";
+		};
+		560FE24F2D17167A0050BEF7 /* SecAwareTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SecAwareTests;
+			sourceTree = "<group>";
+		};
+		560FE2592D17167A0050BEF7 /* SecAwareUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SecAwareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		560FE2392D1716780050BEF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560FE27D2D1727440050BEF7 /* SwiftAPIClient in Frameworks */,
+				560FE2BB2D1979EC0050BEF7 /* CheckJailBreakDevice in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560FE2492D17167A0050BEF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560FE2532D17167A0050BEF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		560FE2332D1716780050BEF7 = {
+			isa = PBXGroup;
+			children = (
+				560FE23E2D1716780050BEF7 /* SecAware */,
+				560FE24F2D17167A0050BEF7 /* SecAwareTests */,
+				560FE2592D17167A0050BEF7 /* SecAwareUITests */,
+				560FE27B2D1727440050BEF7 /* Frameworks */,
+				560FE23D2D1716780050BEF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		560FE23D2D1716780050BEF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				560FE23C2D1716780050BEF7 /* SecAware.app */,
+				560FE24C2D17167A0050BEF7 /* SecAwareTests.xctest */,
+				560FE2562D17167A0050BEF7 /* SecAwareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		560FE27B2D1727440050BEF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		560FE23B2D1716780050BEF7 /* SecAware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560FE2602D17167A0050BEF7 /* Build configuration list for PBXNativeTarget "SecAware" */;
+			buildPhases = (
+				560FE2382D1716780050BEF7 /* Sources */,
+				560FE2392D1716780050BEF7 /* Frameworks */,
+				560FE23A2D1716780050BEF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				560FE23E2D1716780050BEF7 /* SecAware */,
+			);
+			name = SecAware;
+			packageProductDependencies = (
+				560FE27C2D1727440050BEF7 /* SwiftAPIClient */,
+				560FE2BA2D1979EC0050BEF7 /* CheckJailBreakDevice */,
+			);
+			productName = SecAware;
+			productReference = 560FE23C2D1716780050BEF7 /* SecAware.app */;
+			productType = "com.apple.product-type.application";
+		};
+		560FE24B2D17167A0050BEF7 /* SecAwareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560FE2632D17167A0050BEF7 /* Build configuration list for PBXNativeTarget "SecAwareTests" */;
+			buildPhases = (
+				560FE2482D17167A0050BEF7 /* Sources */,
+				560FE2492D17167A0050BEF7 /* Frameworks */,
+				560FE24A2D17167A0050BEF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				560FE24E2D17167A0050BEF7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				560FE24F2D17167A0050BEF7 /* SecAwareTests */,
+			);
+			name = SecAwareTests;
+			packageProductDependencies = (
+			);
+			productName = SecAwareTests;
+			productReference = 560FE24C2D17167A0050BEF7 /* SecAwareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		560FE2552D17167A0050BEF7 /* SecAwareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560FE2662D17167A0050BEF7 /* Build configuration list for PBXNativeTarget "SecAwareUITests" */;
+			buildPhases = (
+				560FE2522D17167A0050BEF7 /* Sources */,
+				560FE2532D17167A0050BEF7 /* Frameworks */,
+				560FE2542D17167A0050BEF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				560FE2582D17167A0050BEF7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				560FE2592D17167A0050BEF7 /* SecAwareUITests */,
+			);
+			name = SecAwareUITests;
+			packageProductDependencies = (
+			);
+			productName = SecAwareUITests;
+			productReference = 560FE2562D17167A0050BEF7 /* SecAwareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		560FE2342D1716780050BEF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					560FE23B2D1716780050BEF7 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					560FE24B2D17167A0050BEF7 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 560FE23B2D1716780050BEF7;
+					};
+					560FE2552D17167A0050BEF7 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 560FE23B2D1716780050BEF7;
+					};
+				};
+			};
+			buildConfigurationList = 560FE2372D1716780050BEF7 /* Build configuration list for PBXProject "SecAware" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 560FE2332D1716780050BEF7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				560FE2772D1726ED0050BEF7 /* XCRemoteSwiftPackageReference "SwiftAPIClient" */,
+				560FE2B92D1979EC0050BEF7 /* XCRemoteSwiftPackageReference "CheckJailBreakDevice" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 560FE23D2D1716780050BEF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				560FE23B2D1716780050BEF7 /* SecAware */,
+				560FE24B2D17167A0050BEF7 /* SecAwareTests */,
+				560FE2552D17167A0050BEF7 /* SecAwareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		560FE23A2D1716780050BEF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560FE24A2D17167A0050BEF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560FE2542D17167A0050BEF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		560FE2382D1716780050BEF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560FE2482D17167A0050BEF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560FE2522D17167A0050BEF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		560FE24E2D17167A0050BEF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 560FE23B2D1716780050BEF7 /* SecAware */;
+			targetProxy = 560FE24D2D17167A0050BEF7 /* PBXContainerItemProxy */;
+		};
+		560FE2582D17167A0050BEF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 560FE23B2D1716780050BEF7 /* SecAware */;
+			targetProxy = 560FE2572D17167A0050BEF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		560FE25E2D17167A0050BEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		560FE25F2D17167A0050BEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		560FE2612D17167A0050BEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SecAware/Preview Content\"";
+				DEVELOPMENT_TEAM = FRLR98T46K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SecAware/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SecAware;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hromni.SecAware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		560FE2622D17167A0050BEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SecAware/Preview Content\"";
+				DEVELOPMENT_TEAM = FRLR98T46K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SecAware/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SecAware;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hromni.SecAware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		560FE2642D17167A0050BEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRLR98T46K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hromni.SecAwareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecAware.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecAware";
+			};
+			name = Debug;
+		};
+		560FE2652D17167A0050BEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRLR98T46K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hromni.SecAwareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecAware.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecAware";
+			};
+			name = Release;
+		};
+		560FE2672D17167A0050BEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRLR98T46K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hromni.SecAwareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SecAware;
+			};
+			name = Debug;
+		};
+		560FE2682D17167A0050BEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRLR98T46K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hromni.SecAwareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SecAware;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		560FE2372D1716780050BEF7 /* Build configuration list for PBXProject "SecAware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560FE25E2D17167A0050BEF7 /* Debug */,
+				560FE25F2D17167A0050BEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560FE2602D17167A0050BEF7 /* Build configuration list for PBXNativeTarget "SecAware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560FE2612D17167A0050BEF7 /* Debug */,
+				560FE2622D17167A0050BEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560FE2632D17167A0050BEF7 /* Build configuration list for PBXNativeTarget "SecAwareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560FE2642D17167A0050BEF7 /* Debug */,
+				560FE2652D17167A0050BEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560FE2662D17167A0050BEF7 /* Build configuration list for PBXNativeTarget "SecAwareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560FE2672D17167A0050BEF7 /* Debug */,
+				560FE2682D17167A0050BEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		560FE2772D1726ED0050BEF7 /* XCRemoteSwiftPackageReference "SwiftAPIClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:hromni/SwiftAPIClient.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+		560FE2B92D1979EC0050BEF7 /* XCRemoteSwiftPackageReference "CheckJailBreakDevice" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SachinSabat/CheckJailBreakDevice";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		560FE27C2D1727440050BEF7 /* SwiftAPIClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 560FE2772D1726ED0050BEF7 /* XCRemoteSwiftPackageReference "SwiftAPIClient" */;
+			productName = SwiftAPIClient;
+		};
+		560FE2BA2D1979EC0050BEF7 /* CheckJailBreakDevice */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 560FE2B92D1979EC0050BEF7 /* XCRemoteSwiftPackageReference "CheckJailBreakDevice" */;
+			productName = CheckJailBreakDevice;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 560FE2342D1716780050BEF7 /* Project object */;
+}
